@@ -16,7 +16,7 @@ setwd(dir) # set work directory where the files are included
 data <- read.xlsx(
   "CSR-D-25-00044-SM Tables.xlsx",
   sheet = "SM9",
-  startRow = 28,
+  startRow = 22,
   detectDates = TRUE)
 
 # Instructions for separating the columns of species and variables
